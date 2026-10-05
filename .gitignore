@@ -1,0 +1,34 @@
+# --- Secrets ---
+.env
+
+# --- Personal / biometric data (NEVER commit) ---
+dataset/
+encodings.pkl
+encodings.pkl.sig
+*.db
+*.db-wal
+*.db-shm
+*.sqlite3
+Database_Backups/
+temp_backup_*/
+
+# --- Build output ---
+build/
+dist/
+*.spec
+
+# --- Python / editor ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+.vscode/
+.idea/
+
+# --- OS ---
+Thumbs.db
+Desktop.ini
+
+# --- Private working files (never upload) ---
+old_backup/
+*.zip
